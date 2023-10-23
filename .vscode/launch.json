@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiCynthiaApplication<api-cynthia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.simplon.apicynthia.ApiCynthiaApplication",
+            "projectName": "api-cynthia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AppliApplication<appli>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.appli.AppliApplication",
+            "projectName": "appli",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
